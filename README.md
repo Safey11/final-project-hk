@@ -1,3 +1,3 @@
 # React + Vite
 
-https://smit-certificate-generator.netlify.app/
+https://final-hk-pj.netlify.app/
