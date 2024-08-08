@@ -1,1 +1,3 @@
-# final-project-hk
+# React + Vite
+
+https://smit-certificate-generator.netlify.app/

@@ -1,0 +1,105 @@
+/* styles.css */
+.header {
+  background-image: url('https://www.saylaniwelfareusa.com/static/media/logo_saylaniwelfareusa.22bf709605809177256c.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+  background-color: #f8f9fa;
+}
+
+.certificate-container {
+  width: 942px; /* A4 width in pixels for landscape orientation */
+  height: 595px; /* A4 height in pixels for landscape orientation */
+  padding: 20px;
+  text-align: center;
+  border: 10px solid #787878;
+  background-image: url('https://student.saylaniwelfare.com/assets/logo-OpazD70S.png'); /* Replace with your background image URL */
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-color: #f8f9fa;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  color: #333;
+  overflow: hidden; /* Ensure contents do not overflow when converting to PDF */
+}
+
+.certificate-content {
+  border: 5px solid #787878;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-sizing: border-box; /* Ensure padding is included in the size */
+}
+
+.certificate-title {
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+  margin: 0;
+}
+
+.certificate-text {
+  margin: 20px 20px;
+  font-size: 18px;
+}
+
+.student-name {
+  font-size: 30px;
+  margin: 0;
+}
+
+.student-course {
+  font-size: 24px;
+  margin: 0;
+}
+
+.certificate-footer {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-footer {
+  text-align: left;
+}
+
+.right-footer {
+  text-align: right;
+}
+
+.certificate-date,
+.certificate-signature {
+  margin: 0;
+  font-size: 16px;
+}
+
+.signature-line {
+  border-bottom: 1px solid #333;
+  width: 250px;
+  margin-left: auto;
+}
+
+@media print {
+  .certificate-container {
+    width: 842px; /* A4 width for landscape orientation */
+    height: 695px; /* A4 height for landscape orientation */
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    box-shadow: none;
+  }
+
+  .certificate-content {
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background-color: transparent;
+  }
+}
+
